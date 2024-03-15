@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+{/* eslint-disable react/jsx-key */}
 // icons
 import {
   FaHtml5,
@@ -280,7 +280,7 @@ const About = () => {
                     <div>{item.stage}</div>
                     <div className='flex gap-x-4'>
                       {/* icons */}
-                      {item.icons.map((icon, itemIndex) => {
+                      {item.icons?.map((icon, itemIndex) => {
                         return <div key={itemIndex} className='text-2xl text-white'>{icon}</div>
                       })}
                     </div>
