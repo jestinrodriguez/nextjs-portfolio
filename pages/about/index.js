@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 {/* eslint-disable react/jsx-key */}
 // icons
+
+import WorkSlider from '../../components/WorkSlider';
+
 import {
   FaHtml5,
   FaCss3,
@@ -195,7 +198,8 @@ const About = () => {
             exit='hidden'
             className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
           >
-            Learn more about my <span className='text-accent'>journey!</span>
+            {/* Learn more about my <span className='text-accent'>journey!</span> */}
+            <WorkSlider/>
           </motion.p>
           {/* counters */}
           <motion.div
