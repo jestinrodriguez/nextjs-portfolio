@@ -199,7 +199,7 @@ const About = () => {
             className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
           >
             {/* Learn more about my <span className='text-accent'>journey!</span> */}
-            <WorkSlider/>
+            {/* <WorkSlider/> */}
           </motion.p>
           {/* counters */}
           <motion.div
