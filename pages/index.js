@@ -34,7 +34,7 @@ const Home = () => {
             animate='show'
             exit='hidden'
             className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'>
-            Hi, I'm <span className='text-accent'>Jestin!</span> I'm a Full-Stack Developer with great passion in creating software. I love building things from scratch and <span className='text-accent'>transforming</span> ideas into <span className='text-accent'>reality.</span>
+            Hi, I&apos;m <span className='text-accent'>Jestin!</span> I&apos;m a Full-Stack Developer with great passion in creating software. I love building things from scratch and <span className='text-accent'>transforming</span> ideas into <span className='text-accent'>reality.</span>
           </motion.p>
           {/* btn */}
           <div className='flex justify-center xl:hidden relative'>

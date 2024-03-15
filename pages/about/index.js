@@ -175,7 +175,7 @@ const About = () => {
             exit='hidden'
             className='h2'
           >
-              echo (<span className='text-accent'>"Hello World"</span>);
+              echo (<span className='text-accent'>&quot;Hello World&quot;</span>);
           </motion.h2>
           <motion.p
             variants={fadeIn('right',0.4)}
@@ -280,7 +280,7 @@ const About = () => {
                     <div>{item.stage}</div>
                     <div className='flex gap-x-4'>
                       {/* icons */}
-                      {item.icons?.map((icon, itemIndex) => {
+                      {item.icons.map((icon, itemIndex) => {
                         return <div key={itemIndex} className='text-2xl text-white'>{icon}</div>
                       })}
                     </div>
