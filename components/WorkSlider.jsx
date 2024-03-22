@@ -35,19 +35,24 @@ const workData = {
           youtube: 'https://www.youtube.com/watch?v=u2XV3brv0uQ'
         },
         {
-          title: 'Medium Blog Clone',
-          path: './medium.png',
-          link: 'https://medium-1j9kcv4xr-jestinrodriguez.vercel.app/'
-        },
-        {
           title: 'Krypt - Web 3.0',
           path: './krypt.png',
           link: 'https://krypt-jestinrodriguez.vercel.app/'
+        },
+        {
+          title: 'GeniusAI',
+          path: './GeniusAi.png',
+          link: 'https://www.youtube.com/watch?v=8MIGMJvDFOc'
         },
       ],
     },
     {
       images: [
+        {
+          title: 'Medium Blog Clone',
+          path: './medium.png',
+          link: 'https://medium-1j9kcv4xr-jestinrodriguez.vercel.app/'
+        },
         {
           title: 'Coinbase - Web 3.0',
           path: './coinbases.png',
@@ -57,11 +62,6 @@ const workData = {
           title: 'Spotify Clone',
           path: './spotify.png',
           link: 'https://www.youtube.com/watch?v=60y8ABXWUbs'
-        },
-        {
-          title: 'Promptopia',
-          path: './promptopia.png',
-          link: 'https://promptopia-ri21oeiqe-jestinrodriguez.vercel.app/'
         },
         {
           title: 'Disney Plus Clone',
@@ -88,18 +88,18 @@ const workData = {
           link: 'https://clubhouse-clone-jest.netlify.app/'
         },
         {
-          title: 'Forkify',
-          path: './forkify.png',
-          link: 'https://forkify-jestin.netlify.app/'
+          title: 'Promptopia',
+          path: './promptopia.png',
+          link: 'https://promptopia-ri21oeiqe-jestinrodriguez.vercel.app/'
         },
       ],
     },
     {
       images: [
         {
-          title: 'Bankist',
-          path: './bankist.png',
-          link: 'https://jestinrodriguez.github.io/bankist/'
+          title: 'Forkify',
+          path: './forkify.png',
+          link: 'https://forkify-jestin.netlify.app/'
         },
         {
           title: 'Mapty',
@@ -115,6 +115,15 @@ const workData = {
           title: 'Rock-Paper-Scissors',
           path: './rockpaperscissors.png',
           link: 'https://jestinrodriguez.github.io/rockpaperscissorsgame/'
+        },
+      ],
+    },
+    {
+      images: [
+        {
+          title: 'Bankist',
+          path: './bankist.png',
+          link: 'https://jestinrodriguez.github.io/bankist/'
         },
       ],
     },
